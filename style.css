@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'youngserif';
+  src: url('young-serif.ttf'),url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+body {
+  font-family: 'YoungSerif-Regular', 'youngserif';
+  margin: 0;
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  margin: 5vw;
+}
+section {
+  margin: 0 5vw;
+}
+#Preparation-time-sec {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 2vw;
+  padding: 3vw;
+  margin: 5vw;
+}
+h2 , .tail-t {
+  font-weight: bolder;
+  color: hsl(14, 45%, 36%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+#f-ul ::marker {
+  color: hsl(332, 51%, 32%);
+}
+#s-ul ::marker {
+  color: hsl(14, 45%, 36%);
+}
+.head {
+  font-weight: bold;
+  color: hsl(24, 5%, 18%);
+}
+.tail {
+  color: hsl(30, 10%, 34%);
+}
+.description {
+  margin: 0 5vw;
+}
+td {
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  padding: 2vw 4vw;
+}
+hr {
+  margin: 5vw;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+li , p {
+  line-height: 6.6vw;
+}
+.attribution {
+  padding-top: 9vw;
+  font-size: 9px;
+  text-align: center;
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+  #main-div {
+    margin: 5% 25%;
+  }
+  #inner-div {
+    background-color: white;
+    border-radius: 25px;
+    padding: 2%;
+  }
+  img {
+    box-sizing: border-box;
+    width: 48vw;
+    padding: 2vw;
+    height: auto;
+    border-radius: 3vw;
+  }
+  h1{
+    margin: 0vw 2vw 2vw 2vw;
+  }
+  section {
+    margin: 30px;
+  }
+  #Preparation-time-sec {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 30px;
+  }
+  td {
+    padding: 10px 20px;
+  }
+  hr {
+    margin: 30px;
+  }
+  li , p {
+    line-height: 1.6vw;
+  }
+}
